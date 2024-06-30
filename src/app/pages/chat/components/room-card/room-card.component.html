@@ -1,0 +1,20 @@
+<div class="room-card {{ selectedClass }}" (click)="onClick()">
+    <div class="row">
+        <div class="col-2 room-card-img">
+            <div>
+                <img src="assets/img/{{ chatRoom.sender.avatar }}" alt="avatar {{ chatRoom.sender.name }}" />
+            </div>
+        </div>
+        <div class="col-10 room-card-info">
+            <div class="room-card-info-title">
+                <p>{{ chatRoom.title }}</p>
+            </div>
+            <div class="room-card-info-name">
+                <p>{{ chatRoom.sender.name }}</p>
+            </div>
+            <div class="room-card-info-date">
+                <p>{{ chatRoom.timestamp | date }}</p>
+            </div>
+        </div>
+    </div>
+</div>

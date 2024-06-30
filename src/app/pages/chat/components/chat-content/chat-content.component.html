@@ -1,0 +1,16 @@
+<div id="chat-content">
+    <div #containerScreenMessage id="list-message">
+        <ul #screenMessage>
+            @for (message of listMessage; track message) {
+                <li>
+                    <app-message-card [message]="message"></app-message-card>
+                </li>
+            }
+        </ul>
+    </div>
+    <div id="send-message">
+        @if(listMessage){
+            <app-send-message></app-send-message>
+        }
+    </div>
+</div>

@@ -1,1 +1,14 @@
-<p>chat works!</p>
+<div id="chat-display">
+    <div class="row">
+        <div class="col-6">
+            <div class="chat-display-card">
+                <app-list-room [listRoom]="listRoom"></app-list-room>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="chat-display-card">
+                <app-chat-content [listMessage]="listMessage"></app-chat-content>
+            </div>
+        </div>
+    </div>
+</div>

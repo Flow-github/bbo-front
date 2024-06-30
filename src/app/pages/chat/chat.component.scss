@@ -1,0 +1,16 @@
+#chat-display{
+    height: 100%;
+
+    > div{
+        height: 100%;
+        padding: 20px 0;
+    }
+}
+
+.chat-display-card{
+    background-color: #FFF;
+    border: 1px solid #EEE;
+    border-radius: 8px;
+    height: 100%;
+    overflow: hidden;
+}

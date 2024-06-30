@@ -1,0 +1,20 @@
+<div class="message-card">
+    <div class="row">
+        <div class="col-2 message-card-img">
+            <div>
+                <img src="assets/img/{{ message.sender.avatar }}" alt="avatar {{ message.sender.name }}" />
+            </div>
+            <div class="message-card-name">
+                <p>{{ message.sender.name }}</p>
+            </div>
+        </div>
+        <div class="col-10 message-card-content">
+            <div class="message-card-text">
+                <p>{{ message.text }}</p>
+            </div>
+            <div class="message-card-date">
+                <p>{{ message.timestamp | date }}</p>
+            </div>
+        </div>
+    </div>
+</div>

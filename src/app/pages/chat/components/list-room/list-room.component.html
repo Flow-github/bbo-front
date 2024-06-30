@@ -1,0 +1,9 @@
+<div id="list-room">
+    <ul>
+        @for (room of listRoom; track room) {
+            <li>
+                <app-room-card [chatRoom]="room"></app-room-card>
+            </li>
+        }
+    </ul>
+</div>
