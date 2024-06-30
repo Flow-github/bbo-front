@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+Install the project in a local folder with the command "git clone https://github.com/Flow-github/bbo-front.git"
+Launch the command "npm install" in the root folder of the project
+Launch the server with the command "npm start"
+Go to the url http://localhost:4200
+
+this project use NodeJs v22.3.0
